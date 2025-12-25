@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lucid Air</title>
+
+  <!-- model-viewer -->
+  <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+
+  <link rel="stylesheet" href="car.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <header>
+    <nav class="navbar">
+  <div class="container">
+<img class="logo" src="imgs/Screenshot_2025-12-10_190550-removebg-preview 1.png" alt="">
+     
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#" class="active">Models</a></li>
+      <li><a href="#">Technology</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <a href="#" class="btn test-drive">Test Drive</a>
+  </div>
+
+      <!-- Burger Menu -->
+    <div class="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+
+</nav>
+</header>
+<section class="hero">
+
+  <!-- LEFT -->
+  <div class="left">
+
+    <div class="pill">Luxury Sedan</div>
+
+    <h1>Lucid Air</h1>
+    <h2>Sapphire</h2>
+
+    <p>
+The most powerful luxury sedan ever produced. Lucid Air Sapphire combines 1,234 horsepower with over 400 miles of range in a breathtaking package.
+    </p>
+
+    <div class="stats">
+      <div>
+        <span>Starting at</span>
+        <strong>$249,000</strong>
+      </div>
+
+      <div class="divider"></div>
+
+      <div>
+        <span>Model Year</span>
+        <h6 class="year">2024</h6>
+      </div>
+    </div>
+
+    <div class="colors">
+      <span class="label">Select Color</span>
+
+      <div class="dots">
+        <button class="dot black"
+          data-model="sedan black audi/2006_audi_s4.glb"></button>
+
+        <button class="dot white"
+          data-model="sedan black audi(white)/2006_audi_s4.glb"></button>
+
+        <button class="dot gray"
+          data-model="sedan black audi(gray)/2006_audi_s4.glb"></button>
+
+        <button class="dot red"
+          data-model="sedan black audi(red)/2006_audi_s4.glb"></button>  
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right">
+    <model-viewer
+      id="carModel"
+      src="sedan black audi/2006_audi_s4.glb"
+  camera-orbit="30deg 85deg 0.06m"
+  camera-controls
+  auto-rotate
+  exposure="1.2"
+  shadow-intensity="1"
+  interaction-prompt="none">
+    </model-viewer>
+  </div>
+</section>
+
+
+<section class="performance" id="performance">
+  <h2>Performance Specs</h2>
+<h6 class="subtitle">Unmatched power meets exceptional range</h6>
+  <div class="cards">
+    <div class="card">
+      <div class="icon"><img src="imgs/speed.png" alt=""></div>
+      <span class="label">Acceleration</span>
+      <h3>1.89s</h3>
+      <span class="unit">0-60 mph</span>
+    </div>
+
+    <div class="card">
+      <div class="icon"><img src="imgs/power.png" alt=""></div>
+      <span class="label">Top Speed</span>
+      <h3>205</h3>
+      <span class="unit">mph</span>
+    </div>
+
+    <div class="card">
+      <div class="icon"><img src="imgs/battery blue.png" alt=""></div>
+      <span class="label">Range</span>
+      <h3>427</h3>
+      <span class="unit">miles</span>
+    </div>
+
+    <div class="card">
+      <div class="icon"><img src="imgs/power.png" alt=""></div>
+      <span class="label">Horsepower</span>
+      <h3>1,234</h3>
+      <span class="unit">hp</span>
+    </div>
+
+    <div class="card">
+      <div class="icon"><img src="imgs/battery blue.png" alt=""></div>
+      <span class="label">Battery</span>
+      <h3>118</h3>
+      <span class="unit">kWh</span>
+    </div>
+
+    <div class="card">
+      <div class="icon"><img src="imgs/location.png" alt=""></div>
+      <span class="label">Drivetrain</span>
+      <h3>Tri Motor</h3>
+      <span class="unit">AWD</span>
+    </div>
+  </div>
+</section>
+
+
+  <section class="luxury-section" id="luxurySection">
+    <h2 class="title">Luxury Redefined</h2>
+<h6 class="subtitle">Every detail crafted for exceptional comfort</h6>
+
+
+    <div class="cards-container" id="cardsContainer">
+      <div class="luxury-card"><span class="dott"></span>DreamDrive Pro advanced driver assistance</div>
+      <div class="luxury-card"><span class="dott"></span>34-inch curved Glass Cockpit 5K display</div>
+      <div class="luxury-card"><span class="dott"></span>Executive rear seating with massage</div>
+      <div class="luxury-card"><span class="dott"></span>Nappa leather and sustainable materials</div>
+      <div class="luxury-card"><span class="dott"></span>21-speaker Surreal Sound Pro audio</div>
+      <div class="luxury-card"><span class="dott"></span>Executive rear seating package</div>
+      <div class="luxury-card"><span class="dott"></span>Panoramic glass canopy roof</div>
+      <div class="luxury-card"><span class="dott"></span>Climate comfort with air purification</div>
+      <div class="luxury-card"><span class="dott"></span>Ambient lighting with 64 color options</div>
+    </div>
+  </section>
+
+
+<section class="innovation-section">
+  <div class="section-header">
+    <h2>Cutting-Edge Innovation</h2>
+    <h6>Technology that sets new industry standards</h6>
+  </div>
+
+  <div class="feature-grid">
+    <div class="feature-box">
+      <div class="icon-wrap">
+        <img src="imgs/eye circle.png" alt="">
+      </div>
+      <h3>DreamDrive Pro</h3>
+      <p>Advanced driver assistance with navigate on autopilot and auto lane change</p>
+    </div>
+
+    <div class="feature-box">
+      <div class="icon-wrap">
+        <img src="imgs/power circle.png" alt="">
+      </div>
+      <h3>900V Architecture</h3>
+      <p>Tri-motor setup delivering unprecedented acceleration and handling</p>
+    </div>
+
+    <div class="feature-box">
+      <div class="icon-wrap">
+        <img src="imgs/zoom circle.png" alt="">
+      </div>
+      <h3>Space Concept</h3>
+      <p>Access to 50,000+ Superchargers worldwide with 200 miles in 15 min</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="luxury-section" id="luxury">
+  <div class="container">
+    <h2 class="title">Luxury Interior</h2>
+<h6 class="subtitle">Refined materials meet cutting-edge technology</h6>
+    <div class="gallery">
+      <div class="gallery-left animate-left">
+        <img src="imgs/car2 l.png" alt="Luxury Interior Main">
+      </div>
+
+      <div class="gallery-right">
+        <div class="img-box animate-right delay-1">
+          <img src="imgs/car2 s.png" alt="Dashboard">
+        </div>
+        <div class="img-box animate-right delay-2">
+          <img src="imgs/car2 s2.png" alt="Seats">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tesla-section">
+  <div class="content">
+
+    <!-- LEFT SIDE -->
+    <div class="leftt">
+      <h1>Build Your Lucid Air</h1>
+      <p>
+        Customize every detail of your Model S Plaid. Choose your exterior
+        color, wheel design, interior finish, and autopilot package to
+        create your perfect electric vehicle.
+      </p>
+
+      <ul>
+        <li>5 Exterior Colors Available</li>
+        <li>3 Wheel Options</li>
+        <li>2 Interior Finishes</li>
+        <li>Full Self-Driving Capability</li>
+      </ul>
+
+      <button class="toggleCardbtn" id="toggleCard">Start Configuring</button>
+    </div>
+
+    <!-- RIGHT SIDE CARD -->
+    <div class="rightt" id="priceCard">
+      <div class="card-build">
+        <div class="row">
+          <span>Base Price</span>
+          <strong>$89,990</strong>
+        </div>
+
+        <div class="row">
+          <span>Estimated Delivery</span>
+          <div class="blue">Feb 2024</div>
+        </div>
+
+        <hr />
+
+        <div class="row big">
+          <span>Est. Monthly Payment</span>
+          <strong>$1,299/mo</strong>
+        </div>
+
+        <small>
+          Based on 72 months at 5.99% APR with $10,000 down
+        </small>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section class="plaid-section">
+    <div class="overlay"></div>
+
+    <div class="contentt">
+      <h1>Ready to Experience Plaid?</h1>
+<h6>Schedule a test drive today and feel the future of electric performance. Our specialists are ready to help you configure your perfect Model S.</h6>
+
+      <div class="buttonss">
+        <button class="btn primaryy">Schedule Test Drive</button>
+        <button class="btn secondaryy">Download Brochure</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col brand">
+      <h3>ELEC CARS</h3>
+      <p>
+        Redefining automotive excellence with cutting-edge electric technology
+        and timeless design.
+      </p>
+      <div class="social">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2.3V12h2.3V9.8c0-2.3 1.4-3.6 3.5-3.6
+  1 0 2 .2 2 .2v2.3h-1.1c-1.1 0-1.5.7-1.5 1.4V12h2.6l-.4 2.9h-2.2v7A10 10 0 0022 12z"/>
+</svg>
+</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 001.88-2.37
+  8.59 8.59 0 01-2.72 1.04 4.28 4.28 0 00-7.29 3.9A12.14 12.14 0 013 4.79
+  a4.28 4.28 0 001.32 5.71 4.2 4.2 0 01-1.94-.54v.05a4.28 4.28 0 003.43 4.2
+  4.3 4.3 0 01-1.93.07 4.28 4.28 0 004 2.97A8.59 8.59 0 012 19.54
+  a12.13 12.13 0 006.56 1.92c7.88 0 12.2-6.53 12.2-12.2
+  0-.19 0-.38-.01-.57A8.72 8.72 0 0022.46 6z"/>
+</svg>
+</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-.9a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2z"/>
+</svg>
+</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M20.45 20.45h-3.55v-5.4c0-1.29-.03-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85v5.5h-3.55V9h3.4v1.56h.05c.47-.9 1.62-1.85 3.33-1.85 3.56 0 4.22 2.34 4.22 5.38v6.36zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.78 24h20.44c.98 0 1.78-.78 1.78-1.74V1.74C24 .78 23.2 0 22.22 0z"/>
+</svg>
+</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M23.5 6.2a2.78 2.78 0 00-1.96-1.97C19.93 4 12 4 12 4s-7.93 0-9.54.25a2.78 2.78 0 00-1.96 1.97A29.86 29.86 0 000 12a29.86 29.86 0 00.5 5.8 2.78 2.78 0 001.96 1.97C4.07 20 12 20 12 20s7.93 0 9.54-.25a2.78 2.78 0 001.96-1.97A29.86 29.86 0 0024 12a29.86 29.86 0 00-.5-5.8zM9.75 15.02V8.98l6.5 3.02-6.5 3.02z"/>
+</svg>
+</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="#">All Models</a></li>
+        <li><a href="#">Hypercars</a></li>
+        <li><a href="#">SUVs</a></li>
+        <li><a href="#">Sedans</a></li>
+        <li><a href="#">Compact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Test Drive</a></li>
+        <li><a href="#">Service Centers</a></li>
+        <li><a href="#">Charging Network</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Quantum Motors. All rights reserved.</p>
+    <div class="policies">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script src="car.js"></script>
+</body>
+</html>
