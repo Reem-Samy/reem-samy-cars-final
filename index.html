@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Electric Car Section</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+<script type="module"
+  src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+</script>
+</head>
+<body>
+
+
+<header>
+    <nav class="navbar">
+  <div class="container">
+<img class="logo" src="imgs/Screenshot_2025-12-10_190550-removebg-preview 1.png" alt="">
+     
+    </a>
+    <ul class="nav-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Models</a></li>
+      <li><a href="#">Technology</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+    <a href="#" class="btn test-drive">Test Drive</a>
+  </div>
+
+      <!-- Burger Menu -->
+    <div class="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+
+</nav>
+</header>
+
+
+<section class="hero">
+  <div class="hero-content">
+
+    <span class="badge"><img class="badge-icon" src="imgs/Icon.png" alt="">Introducing 2025 Collection</span>
+
+    <h1 class="animate-left">The Future<br>of Mobility</h1>
+
+    <p class="animate-left delay-1">
+      Experience the next generation of electric vehicles.
+      Zero emissions, infinite possibilities.
+    </p>
+
+    <div class="buttons animate-left delay-2">
+      <button class="btn primary">Explore Models ></button>
+      <button class="btn secondary">▶ Watch Film</button>
+    </div>
+
+    <div class="stats animate-left delay-3">
+      <div>
+        <h3>1500hp</h3>
+        <span>Peak Power</span>
+      </div>
+      <div>
+        <h3>250mph</h3>
+        <span>Top Speed</span>
+      </div>
+      <div>
+        <h3>420mi</h3>
+        <span>Max Range</span>
+      </div>
+      <div>
+        <h3>1.9s</h3>
+        <span>0-60 mph</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="car-wrapper">
+
+<model-viewer
+  class="car"
+  src="model/free_concept_car_038_-_public_domain_cc0.glb"
+  camera-orbit="30deg 85deg 0m"
+  exposure="1.2"
+  shadow-intensity="1"
+  interaction-prompt="none">
+
+</model-viewer>
+
+  </div>
+</section>
+
+
+<section class="collection">
+  <h2>Our Collection</h2>
+<h4 class="subtitle">Discover our complete lineup of electric vehicles, each engineered to perfection.</h4>
+
+  <div class="cards-grid">
+
+
+    <!-- Card -->
+    <div class="car-card" data-link="car1.html">
+      <span class="tag">Luxury Sedan</span>
+      <div class="car-img-cont">
+        <model-viewer class="car-img"
+        src="white sport car/2017_acura_nsx.glb" 
+        ar ar-modes="webxr scene-viewer quick-look"
+        camera-orbit="330deg 75deg 0.5m"
+        camera-target="0m 0m 0m"
+        camera-target="-0.3m 0.6m 0m"
+
+        tone-mapping="neutral"
+        shadow-intensity="1"
+        auto-rotate
+auto-rotate-delay="3000"
+rotation-per-second="20deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+      </div>
+
+      <h3>Tesla Model S</h3>
+      <p class="desc">Beyond Ludicrous</p>
+      <div class="price">$89,990</div>
+      <a href="#">Learn More →</a>
+    </div>
+
+    <!-- Card 2-->
+    <div class="car-card" data-link="car2.html">
+      <span class="tag">Luxury Sedan</span>
+      <div class="car-img-cont">
+        <model-viewer class="car-img"
+        src="sedan black audi/2006_audi_s4.glb" 
+        ar ar-modes="webxr scene-viewer quick-look"
+        camera-orbit="330deg 75deg 0m"
+        camera-target="0m 0m 0m"
+        camera-target="-0.3m 0.6m 0m"
+
+        tone-mapping="neutral"
+        shadow-intensity="1"
+        auto-rotate
+auto-rotate-delay="3000"
+rotation-per-second="20deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+      </div>
+
+      <h3>Lucid Air</h3>
+      <p class="desc">Sapphire</p>
+      <div class="price">$249,000</div>
+      <a href="#">Learn More →</a>
+    </div>
+
+
+        <!-- Card 3-->
+    <div class="car-card" data-link="car3.html">
+      <span class="tag">Sports Sedan</span>
+      <div class="car-img-cont">
+        <model-viewer class="car-img"
+        src="white audi/2021_audi_rs3_sportback.glb" 
+        ar ar-modes="webxr scene-viewer quick-look"
+        camera-orbit="330deg 75deg 0m"
+       
+        camera-target="-0.3m 0.2m 0m"
+
+        tone-mapping="neutral"
+        shadow-intensity="1"
+        auto-rotate
+auto-rotate-delay="3000"
+rotation-per-second="20deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+      </div>
+
+      <h3>Urban Spark</h3>
+      <p class="desc">Turbo S</p>
+      <div class="price">$185,000</div>
+      <a href="#">Learn More →</a>
+    </div>
+
+    <!-- Card 4-->
+    <div class="car-card" data-link="car4.html">
+      <span class="tag">Electric Truck</span>
+      <div class="car-img-cont">
+<model-viewer
+  class="car-img2"
+  src="model (19)/2016_nissan_titan_warrior_concept.glb"
+  ar
+  ar-modes="webxr scene-viewer quick-look"
+camera-orbit="330deg 85deg 0m"
+
+  auto-rotate
+  auto-rotate-delay="3000"
+  rotation-per-second="20deg"
+  tone-mapping="neutral"
+  shadow-intensity="1">
+</model-viewer>
+
+      </div>
+
+      <h3>Nissan F-150 Lightning</h3>
+      <p class="desc">Platinum</p>
+      <div class="price">$91,995</div>
+      <a href="#">Learn More →</a>
+    </div>
+
+    <!-- Card 5-->
+    <div class="car-card" data-link="car5.html">
+      <span class="tag">Luxury Sedan</span>
+      <div class="car-img-cont">
+        <model-viewer class="car-img"
+       src="sedan white audi/2020_audi_rs5.glb" 
+        ar ar-modes="webxr scene-viewer quick-look"
+        camera-orbit="330deg 75deg 0.5m"
+        camera-target="0m 0m 0m"
+        camera-target="-0.3m 0.6m 0m"
+
+        tone-mapping="neutral"
+        shadow-intensity="1"
+        auto-rotate
+auto-rotate-delay="3000"
+rotation-per-second="20deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+      </div>
+
+      <h3>Audi-Benz EQS</h3>
+      <p class="desc">AMG</p>
+      <div class="price">$215,000</div>
+      <a href="#">Learn More →</a>
+    </div>
+
+    <!-- Card 6-->
+    <div class="car-card" data-link="car6.html">
+      <span class="tag">Electric Crossover</span>
+      <div class="car-img-cont">
+        <model-viewer class="car-img"
+        src="gray mercedes/2020_mercedes-benz_amg_c63s.glb" 
+        ar ar-modes="webxr scene-viewer quick-look"
+        camera-orbit="330deg 75deg 0.5m"
+        camera-target="0m 0m 0m"
+        camera-target="-0.3m 0.6m 0m"
+
+        tone-mapping="neutral"
+        shadow-intensity="1"
+        auto-rotate
+auto-rotate-delay="3000"
+rotation-per-second="20deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+      </div>
+
+      <h3>Mercedes EV6</h3>
+      <p class="desc">GT</p>
+      <div class="price">$61,600</div>
+      <a href="#">Learn More →</a>
+    </div>
+
+    <!-- Card 7-->
+    <div class="car-card" data-link="car7.html">
+      <span class="tag">Sports Sedan</span>
+      <div class="car-img-cont">
+        <model-viewer class="car-img3"
+        src="blue sports volks/2014_volkswagen_xl_sport_concept.glb" 
+        ar ar-modes="webxr scene-viewer quick-look"
+        camera-orbit="330deg 80deg 0m"
+        camera-target="0m 0m 0m"
+        camera-target="-0.3m 0.6m 0m"
+
+        tone-mapping="neutral"
+        shadow-intensity="1"
+        auto-rotate
+auto-rotate-delay="3000"
+rotation-per-second="20deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+      </div>
+
+      <h3>Volkswagen IONIQ 5</h3>
+      <p class="desc">Limited AWD</p>
+      <div class="price">$56,500</div>
+      <a href="#">Learn More →</a>
+    </div>
+
+    <!-- Card 8-->
+    <div class="car-card" data-link="car8.html">
+      <span class="tag">Pickup Truck</span>
+      <div class="car-img-cont">
+        <model-viewer class="car-img2"
+        src="gray truck/chevrolet_colorado_zr2.glb" 
+        ar ar-modes="webxr scene-viewer quick-look"
+        camera-orbit="330deg 85deg 0m"
+        camera-target="0m 0m 0m"
+        camera-target="-0.3m 0.6m 0m"
+
+        tone-mapping="neutral"
+        shadow-intensity="1"
+        auto-rotate
+auto-rotate-delay="3000"
+rotation-per-second="20deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+      </div>
+
+      <h3>Rivian R1T</h3>
+      <p class="desc">Adventure</p>
+      <div class="price">$129,000</div>
+      <a href="#">Learn More →</a>
+    </div>
+
+    <!-- Card -->
+    <div class="car-card" data-link="car9.html">
+      <span class="tag">Luxury Sedan</span>
+      <div class="car-img-cont">
+        <model-viewer class="car-img"
+        src="white mercedes/2015_mercedes-benz_cla_45_amg_racing_series.glb" 
+        ar ar-modes="webxr scene-viewer quick-look"
+        camera-orbit="330deg 75deg 0m"
+        camera-target="0m 0m 0m"
+        camera-target="-0.3m 0.6m 0m"
+
+        tone-mapping="neutral"
+        shadow-intensity="1"
+        auto-rotate
+auto-rotate-delay="3000"
+rotation-per-second="20deg">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+      </div>
+
+      <h3>Mercedes i4</h3>
+      <p class="desc">M50</p>
+      <div class="price">$67,300</div>
+      <a href="#">Learn More →</a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<section class="tech-section">
+  <div class="overlay"></div>
+
+  <img
+    src="imgs/Screenshot_2025-12-17_224747-removebg-preview.png"
+    alt="car"
+    class="car-image"
+  />
+
+  <div class="content">
+
+    <!-- Centered Header -->
+    <div class="tech-header">
+      <h2>Advanced Technology</h2>
+<h4>Innovation at every level, from battery to software.</h4>
+    </div>
+
+    <!-- Left Cards -->
+    <div class="cards">
+      <div class="card">
+        <div class="icon-box">
+          <div class="icon-1"></div>
+        </div>
+        <h3>Quantum Battery</h3>
+       <h6>Next-generation solid-state battery technology delivers unmatched range and ultra-fast charging in under 15 minutes.</h6>
+      </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="icon-box">
+          <div class="icon-2"></div>
+        </div>
+        <h3>Neural Drive AI</h3>
+       <h6>Advanced artificial intelligence learns your driving style and optimizes performance, safety, and efficiency in real-time.</h6>
+      </div>
+
+     <div class="cards">
+      <div class="card">
+        <div class="icon-box">
+          <div class="icon-3"></div>
+        </div>
+        <h3>Zero Emissions</h3>
+       <h6>100% electric powertrain with sustainable materials throughout. Drive the future without compromise.</h6>
+      </div>
+
+  </div>
+</section>
+
+
+<section class="experience-section" id="experience">
+  <div class="content2">
+    <h2>
+      Visit Our Experience<br />
+      Center
+    </h2>
+
+    <p class="description">
+      Immerse yourself in the world of Quantum Motors. Book a test
+      drive, explore our technology, and experience the future of mobility firsthand.
+    </p>
+
+    <div class="features">
+      <div class="feature">
+        <div class="icon" aria-hidden="true">
+          <div class="icon-in1"></div>
+        </div>
+        <div>
+          <h4>Expert Consultation</h4>
+          <span>Our specialists will help you find the perfect vehicle for your lifestyle.</span>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon" aria-hidden="true">
+          <div class="icon-in2"></div>
+        </div>
+        <div>
+          <h4>Virtual Reality Tours</h4>
+          <span>Experience every model in immersive VR before making your choice.</span>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon" aria-hidden="true">
+          <div class="icon-in3"></div>
+        </div>
+        <div>
+          <h4>Test Drive Experience</h4>
+          <span>Feel the power and precision on our private test track.</span>
+        </div>
+      </div>
+    </div>
+
+    <button class="cta-btn">Book Your Visit →</button>
+  </div>
+
+  <div class="image-wrapper">
+    <img src="imgs/llll.png" alt="Car" class="cars" />
+  </div>
+</section>
+
+
+<section class="sustainable-section">
+  <h2>Sustainable Future</h2>
+<h6 class="subtitlee">Our commitment to the planet goes beyond zero emissions.</h6>
+
+  <div class="cards4">
+    <div class="card4" data-target="100">
+      <h3 class="number">0%</h3>
+      <h4>Renewable Energy</h4>
+      <p>All manufacturing facilities powered by renewable energy sources.</p>
+    </div>
+
+    <div class="card4" data-target="85">
+      <h3 class="number">0%</h3>
+      <h4>Recyclable Materials</h4>
+      <p>Sustainable materials used throughout vehicle construction.</p>
+    </div>
+
+    <div class="card4" data-target="0">
+      <h3 class="number">0</h3>
+      <h4>Carbon Footprint</h4>
+      <p>Carbon-neutral production and delivery process.</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="owner-stories" id="ownerStories">
+  <h2 class="section-title">Owner Stories</h2>
+<h6 class="section-subtitle">Hear from the drivers who made the switch to electric.</h6>
+
+  <div class="stories-wrapper">
+    <div class="story-box">
+      <div class="stars">★★★★★</div>
+      <p class="story-text">
+        “The Nexus X1 has completely changed my perspective on what a car can be. The acceleration is mind-blowing.”
+      </p>
+      <h4>Sarah Chen</h4>
+      <span>Tech Executive</span>
+    </div>
+
+    <div class="story-box">
+      <div class="stars">★★★★★</div>
+      <p class="story-text">
+        “I have driven every hypercar on the market. Nothing comes close to the driving experience Quantum Motors delivers.”
+      </p>
+      <h4>Marcus Rodriguez</h4>
+      <span>Automotive Journalist</span>
+    </div>
+
+    <div class="story-box">
+      <div class="stars">★★★★★</div>
+      <p class="story-text">
+        “Finally, a luxury vehicle that does not compromise on sustainability. The future is here.”
+      </p>
+      <h4>Emma Thompson</h4>
+      <span>Environmental Advocate</span>
+    </div>
+  </div>
+</section>
+
+
+<section class="cta-section">
+  <h2 class="cta-title">
+    Ready to Experience <br />
+    <span>the Future?</span>
+  </h2>
+
+<h6 class="cta-subtitle">Configure your dream vehicle, schedule a test drive, or speak with our team of experts.</h6>
+
+  <div class="cta-buttons">
+    <a href="#" class="btn primary-btn">
+      Configure Your Car →
+    </a>
+    <a href="#" class="btn secondary-btn">
+      Schedule Test Drive
+    </a>
+  </div>
+
+  <div class="cta-stats">
+    <div class="stat">
+      <h3>24/7</h3>
+      <span>Customer Support</span>
+    </div>
+
+    <div class="stat">
+      <h3>50+</h3>
+      <span>Service Centers</span>
+    </div>
+
+    <div class="stat">
+      <h3>10K+</h3>
+      <span>Charging Stations</span>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col brand">
+      <h3>ELEC CARS</h3>
+      <p>
+        Redefining automotive excellence with cutting-edge electric technology
+        and timeless design.
+      </p>
+      <div class="social">
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M22 12a10 10 0 10-11.5 9.9v-7h-2.3V12h2.3V9.8c0-2.3 1.4-3.6 3.5-3.6
+  1 0 2 .2 2 .2v2.3h-1.1c-1.1 0-1.5.7-1.5 1.4V12h2.6l-.4 2.9h-2.2v7A10 10 0 0022 12z"/>
+</svg>
+</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.3 4.3 0 001.88-2.37
+  8.59 8.59 0 01-2.72 1.04 4.28 4.28 0 00-7.29 3.9A12.14 12.14 0 013 4.79
+  a4.28 4.28 0 001.32 5.71 4.2 4.2 0 01-1.94-.54v.05a4.28 4.28 0 003.43 4.2
+  4.3 4.3 0 01-1.93.07 4.28 4.28 0 004 2.97A8.59 8.59 0 012 19.54
+  a12.13 12.13 0 006.56 1.92c7.88 0 12.2-6.53 12.2-12.2
+  0-.19 0-.38-.01-.57A8.72 8.72 0 0022.46 6z"/>
+</svg>
+</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M7 2C4.243 2 2 4.243 2 7v10c0 2.757 2.243 5 5 5h10c2.757 0 5-2.243 5-5V7c0-2.757-2.243-5-5-5H7zm10 2a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.5-.9a1.1 1.1 0 100 2.2 1.1 1.1 0 000-2.2z"/>
+</svg>
+</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M20.45 20.45h-3.55v-5.4c0-1.29-.03-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.85v5.5h-3.55V9h3.4v1.56h.05c.47-.9 1.62-1.85 3.33-1.85 3.56 0 4.22 2.34 4.22 5.38v6.36zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.78C.8 0 0 .78 0 1.74v20.52C0 23.22.8 24 1.78 24h20.44c.98 0 1.78-.78 1.78-1.74V1.74C24 .78 23.2 0 22.22 0z"/>
+</svg>
+</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+  <path d="M23.5 6.2a2.78 2.78 0 00-1.96-1.97C19.93 4 12 4 12 4s-7.93 0-9.54.25a2.78 2.78 0 00-1.96 1.97A29.86 29.86 0 000 12a29.86 29.86 0 00.5 5.8 2.78 2.78 0 001.96 1.97C4.07 20 12 20 12 20s7.93 0 9.54-.25a2.78 2.78 0 001.96-1.97A29.86 29.86 0 0024 12a29.86 29.86 0 00-.5-5.8zM9.75 15.02V8.98l6.5 3.02-6.5 3.02z"/>
+</svg>
+</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Products</h4>
+      <ul>
+        <li><a href="#">All Models</a></li>
+        <li><a href="#">Hypercars</a></li>
+        <li><a href="#">SUVs</a></li>
+        <li><a href="#">Sedans</a></li>
+        <li><a href="#">Compact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Press</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Support</h4>
+      <ul>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Test Drive</a></li>
+        <li><a href="#">Service Centers</a></li>
+        <li><a href="#">Charging Network</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Quantum Motors. All rights reserved.</p>
+    <div class="policies">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
